@@ -83,7 +83,7 @@ a {
 }
 
 #menuToggle {
-  display: block;
+  display: none;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -374,5 +374,8 @@ a {
   }
   .top-section-content img {
     width: 100%;
+  }
+  #menuToggle {
+    display: block;
   }
 }

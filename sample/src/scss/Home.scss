@@ -78,7 +78,7 @@ a{
 }
 #menuToggle
 {
-  display: block;
+  display: none;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -186,7 +186,8 @@ a{
  * at the top left of the screen
  */
 #menu
-{
+{   
+    
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -247px;
