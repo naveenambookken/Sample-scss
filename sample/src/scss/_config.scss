@@ -1,0 +1,22 @@
+$bgcolor-login:linear-gradient(90deg, #39a186, #3098d5);
+$font :Arial, Helvetica, sans-serif;
+$primary-color: rgb(91, 103, 236);
+$secondary-color : orange;
+$lightcolor : #c6c6c6;
+
+// text color changes depend on background color
+@function set-text-color($color){
+    @if(lightness($color)>70){
+        @return #333;
+    }@else{
+        @return #fff;
+    }
+}
+
+// set background  & t4ext color
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color) 
+}
+
+

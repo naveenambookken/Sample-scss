@@ -1,0 +1,27 @@
+@import 'config';
+.MainBody {
+  width: 100vw;
+  height: 100vh;
+  background: $bgcolor-login;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginBody {
+  width: 400px;
+  padding: 20px;
+  background-color: aliceblue;
+}
+.loginTitle {
+  width: 100%;
+  background: $bgcolor-login;
+}
+.loginTitle h1 {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+}
+.loginBody Button {
+  width: 100%;
+}

@@ -1,0 +1,30 @@
+.MainBody {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #39a186, #3098d5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginBody {
+  width: 400px;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.loginTitle {
+  width: 100%;
+  background: linear-gradient(90deg, #39a186, #3098d5);
+}
+
+.loginTitle h1 {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.loginBody Button {
+  width: 100%;
+}

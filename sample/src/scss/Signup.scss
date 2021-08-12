@@ -1,0 +1,31 @@
+@import 'config';
+.MainBody {
+  width: 100vw;
+  height: 100vh;
+  background: $bgcolor-login;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signupBody {
+  width: 400px;
+  padding: 20px;
+  background-color: aliceblue;
+  Button {
+    width: 100%;
+  }
+  a{
+      text-decoration-line: none;
+  }
+  
+}
+.signupTitle {
+  width: 100%;
+  background: $bgcolor-login;
+  h1 {
+   text-align: center;
+   color: white;
+   font-weight: 600;
+   padding: 10px;
+ }
+}
