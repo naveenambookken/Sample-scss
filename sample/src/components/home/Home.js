@@ -5,8 +5,8 @@ function Home() {
     const history = useHistory();
     return (
         <div className="main" >
-            <div className="top-section">
-                <div className="Container">
+         <div className="top-section">
+            <div className="Container">
                 
                 <nav>
                 
@@ -23,7 +23,18 @@ function Home() {
                     <div className="login-button"><a className="btns-primary" onClick={()=>history.push("/Login")} >Log In</a></div>
                 
                 </nav>
-                
+                <div id="menuToggle">
+                <input type="checkbox" />
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Services</li></a>
+                </ul>
+                </div>
                 
                 <div className="top-section-content">
                     
@@ -42,8 +53,8 @@ function Home() {
                 
                 </div>
 
-                </div>
             </div>
+         </div>
             
             <div className="bottom-section">
                 <div className="Container">
@@ -53,19 +64,7 @@ function Home() {
                 </div>
             </div>
             
-        <div id="menuToggle">
-             <input type="checkbox" />
-
-                <span></span>
-                <span></span>
-                <span></span>
-            <ul id="menu">
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Services</li></a>
-            </ul>
         </div>
-    </div>
     )
 }
 
